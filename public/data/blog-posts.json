@@ -1,0 +1,27 @@
+
+[
+  {
+    "id": 1,
+    "slug": "getting-started-with-nextjs",
+    "title": "Getting Started with Next.js 14",
+    "excerpt": "Learn how to build modern web applications with Next.js 14 and React Server Components.",
+    "content": "Full article content here...",
+    "category": "web-dev",
+    "tags": ["React", "Next.js", "JavaScript"],
+    "date": "2024-01-15",
+    "readTime": "5 min read",
+    "image": "/images/blog/nextjs.jpg"
+  },
+  {
+    "id": 2,
+    "slug": "modern-css-techniques",
+    "title": "Modern CSS Techniques You Should Know",
+    "excerpt": "Explore cutting-edge CSS features that will level up your styling game.",
+    "content": "Full article content here...",
+    "category": "web-dev",
+    "tags": ["CSS", "Design", "UI/UX"],
+    "date": "2024-01-10",
+    "readTime": "8 min read",
+    "image": "/images/blog/css.jpg"
+  }
+]

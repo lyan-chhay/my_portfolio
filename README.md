@@ -35,6 +35,7 @@ This is my debut project utilizing Next.js, a portfolio website featuring four p
 
    ```
    pnpm install
+   pnpm add gray-matter next-mdx-remote rehype-highlight remark-gfm
    ```
 5. Start the development server
 

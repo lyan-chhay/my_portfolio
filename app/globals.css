@@ -95,7 +95,7 @@ a[title]:hover:after {
 
 /* CSS variables - match exactly with your desired colors */
 :root {
-  --background: rgb(230, 230, 230); /* Your light gray */
+  --background: rgb(250, 250, 250); /* Your light gray */
   --foreground: #171717;
 }
 
