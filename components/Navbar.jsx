@@ -865,7 +865,7 @@ export default function Navbar() {
               ? "bg-[#1a1a1a]/80" // Less transparent
               : "bg-transparent"
             : isScrolled
-            ? "bg-[rgb(230,230,230)]/80" // Less transparent
+            ? "bg-[rgb(250,250,250)]/80" // Less transparent
             : "bg-transparent"
         }`}
       >

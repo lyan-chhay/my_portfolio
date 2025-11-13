@@ -1,0 +1,258 @@
+.
+├── app
+│   ├── (root)
+│   │   ├── layout.jsx
+│   │   ├── loading.jsx
+│   │   └── page.jsx
+│   ├── about
+│   │   ├── components
+│   │   │   ├── about
+│   │   │   │   ├── about.jsx
+│   │   │   │   └── spotify
+│   │   │   │       ├── animation.jsx
+│   │   │   │       ├── card.jsx
+│   │   │   │       └── fetch.js
+│   │   │   ├── education.jsx
+│   │   │   ├── experience.jsx
+│   │   │   ├── quote
+│   │   │   │   ├── quote.jsx
+│   │   │   │   ├── style.css
+│   │   │   │   └── useIntersectionObserver.js
+│   │   │   └── skills
+│   │   │       ├── icons.jsx
+│   │   │       └── skills.jsx
+│   │   ├── layout.jsx
+│   │   ├── loading.jsx
+│   │   └── page.jsx
+│   ├── blog
+│   │   ├── [slug]
+│   │   │   ├── BlogPostClient.jsx
+│   │   │   ├── MDXContent.jsx
+│   │   │   └── page.jsx
+│   │   ├── blog-globals.css
+│   │   ├── BlogClientPage.jsx
+│   │   ├── components
+│   │   │   ├── BlogCard
+│   │   │   │   └── BlogCard.jsx
+│   │   │   ├── BlogFilter
+│   │   │   │   └── BlogFilter.jsx
+│   │   │   ├── BlogGrid
+│   │   │   │   └── BlogGrid.jsx
+│   │   │   ├── BlogHero
+│   │   │   │   └── BlogHero.jsx
+│   │   │   ├── BlogSkeleton
+│   │   │   │   └── BlogSkeleton.jsx
+│   │   │   ├── Pagination
+│   │   │   │   └── Pagination.jsx
+│   │   │   └── TableOfContents.jsx
+│   │   ├── layout.jsx
+│   │   ├── loading.jsx
+│   │   └── page.jsx
+│   ├── content
+│   │   └── blog
+│   │       └── getting-started-with-nextjs.mdx
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.jsx
+│   ├── not-found.jsx
+│   ├── nprogress.css
+│   ├── projects
+│   │   ├── (project-card)
+│   │   │   └── index.jsx
+│   │   ├── [slug]
+│   │   │   └── page.jsx
+│   │   ├── archive
+│   │   │   └── page.jsx
+│   │   ├── components
+│   │   │   └── ProjectCard.jsx
+│   │   ├── layout.jsx
+│   │   ├── loading.jsx
+│   │   └── page.jsx
+│   └── ThemeProvider.jsx
+├── components
+│   ├── Button.jsx
+│   ├── Chat.jsx
+│   ├── ClientTopProgressBar.jsx
+│   ├── FixedButton.jsx
+│   ├── Footer.jsx
+│   ├── Header.jsx
+│   ├── Hr.jsx
+│   ├── Logo.jsx
+│   ├── MusicPlayer.jsx
+│   ├── Navbar.jsx
+│   ├── Sidebar.jsx
+│   ├── ThemeToggle.jsx
+│   └── TopProgressbar.jsx
+├── content
+│   └── blog
+│       └── getting-started-with-nextjs.mdx
+├── generate-sitemap.js
+├── jsconfig.json
+├── json
+│   └── data.json
+├── lib
+│   ├── posts.js
+│   └── toc.js
+├── LICENSE
+├── next.config.js
+├── node_modules
+│   ├── @fortawesome
+│   │   ├── fontawesome-svg-core -> ../.pnpm/@fortawesome+fontawesome-svg-core@6.7.2/node_modules/@fortawesome/fontawesome-svg-core
+│   │   ├── free-brands-svg-icons -> ../.pnpm/@fortawesome+free-brands-svg-icons@6.7.2/node_modules/@fortawesome/free-brands-svg-icons
+│   │   ├── free-regular-svg-icons -> ../.pnpm/@fortawesome+free-regular-svg-icons@6.7.2/node_modules/@fortawesome/free-regular-svg-icons
+│   │   ├── free-solid-svg-icons -> ../.pnpm/@fortawesome+free-solid-svg-icons@6.7.2/node_modules/@fortawesome/free-solid-svg-icons
+│   │   └── react-fontawesome -> ../.pnpm/@fortawesome+react-fontawesome@0.2.2_@fortawesome+fontawesome-svg-core@6.7.2_react@19.0.0/node_modules/@fortawesome/react-fontawesome
+│   ├── @fullpage
+│   │   └── react-fullpage -> ../.pnpm/@fullpage+react-fullpage@0.1.48/node_modules/@fullpage/react-fullpage
+│   ├── @next
+│   │   └── bundle-analyzer -> ../.pnpm/@next+bundle-analyzer@15.2.3/node_modules/@next/bundle-analyzer
+│   ├── @tailwindcss
+│   │   └── postcss -> ../.pnpm/@tailwindcss+postcss@4.0.14/node_modules/@tailwindcss/postcss
+│   ├── @types
+│   │   └── react -> ../.pnpm/@types+react@19.1.5/node_modules/@types/react
+│   ├── @vercel
+│   │   └── analytics -> ../.pnpm/@vercel+analytics@1.5.0_next@15.2.3_react-dom@19.0.0_react@19.0.0__react@19.0.0__react@19.0.0/node_modules/@vercel/analytics
+│   ├── cross-env -> .pnpm/cross-env@7.0.3/node_modules/cross-env
+│   ├── eslint -> .pnpm/eslint@9.22.0_jiti@2.4.2/node_modules/eslint
+│   ├── eslint-config-next -> .pnpm/eslint-config-next@15.2.3_eslint@9.22.0_jiti@2.4.2__typescript@5.2.2/node_modules/eslint-config-next
+│   ├── framer-motion -> .pnpm/framer-motion@12.5.0_@emotion+is-prop-valid@0.8.8_react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/framer-motion
+│   ├── next -> .pnpm/next@15.2.3_react-dom@19.0.0_react@19.0.0__react@19.0.0/node_modules/next
+│   ├── nprogress -> .pnpm/nprogress@0.2.0/node_modules/nprogress
+│   ├── postcss -> .pnpm/postcss@8.5.3/node_modules/postcss
+│   ├── prop-types -> .pnpm/prop-types@15.8.1/node_modules/prop-types
+│   ├── react -> .pnpm/react@19.0.0/node_modules/react
+│   ├── react-dom -> .pnpm/react-dom@19.0.0_react@19.0.0/node_modules/react-dom
+│   ├── sharp -> .pnpm/sharp@0.33.5/node_modules/sharp
+│   ├── sitemap -> .pnpm/sitemap@8.0.0/node_modules/sitemap
+│   ├── swr -> .pnpm/swr@2.3.3_react@19.0.0/node_modules/swr
+│   └── tailwindcss -> .pnpm/tailwindcss@4.0.14/node_modules/tailwindcss
+├── package.json
+├── pnpm-lock.yaml
+├── pnpm-workspace.yaml
+├── postcss.config.js
+├── public
+│   ├── data
+│   │   └── blog-posts.json
+│   ├── docs
+│   │   └── cv.pdf
+│   ├── image
+│   │   ├── me.jpeg
+│   │   ├── me.jpg
+│   │   ├── me.png
+│   │   ├── me1.jpeg
+│   │   ├── me1.jpg
+│   │   ├── me2.jpeg
+│   │   ├── me2.jpg
+│   │   ├── me3.jpeg
+│   │   ├── me3.jpg
+│   │   ├── me4.jpeg
+│   │   ├── me5.jpeg
+│   │   ├── me5.jpg
+│   │   ├── me6.jpg
+│   │   ├── placeholder
+│   │   │   └── blur.jpg
+│   │   ├── projects
+│   │   │   ├── ai
+│   │   │   │   ├── heart-attack-prediction
+│   │   │   │   │   ├── heart-attack-prediction-thumbnail.jpg
+│   │   │   │   │   ├── heart-attack1.png
+│   │   │   │   │   ├── heart-attack2.png
+│   │   │   │   │   ├── heart-attack3.png
+│   │   │   │   │   ├── heart-attack4.png
+│   │   │   │   │   └── heart-attack5.png
+│   │   │   │   └── javanese-translation
+│   │   │   │       ├── javanese-translation-thumbnail.jpg
+│   │   │   │       ├── javanese-translation1.png
+│   │   │   │       └── javanese-translation2.png
+│   │   │   ├── other
+│   │   │   │   ├── bot
+│   │   │   │   │   ├── bot-thumbnail.png
+│   │   │   │   │   ├── bot1.png
+│   │   │   │   │   └── bot2.png
+│   │   │   │   ├── EoS
+│   │   │   │   │   └── EoS-thumbnail.jpg
+│   │   │   │   └── LUDOang
+│   │   │   │       ├── ludo-thumbnail.png
+│   │   │   │       ├── ludo1.png
+│   │   │   │       ├── ludo2.png
+│   │   │   │       └── ludo3.png
+│   │   │   └── web
+│   │   │       ├── apii-portfolio
+│   │   │       │   ├── porto-thumbnail.jpg
+│   │   │       │   ├── porto1.png
+│   │   │       │   ├── porto2.png
+│   │   │       │   └── porto3.png
+│   │   │       ├── ino
+│   │   │       │   ├── ino1.png
+│   │   │       │   ├── ino2.png
+│   │   │       │   └── ino3.png
+│   │   │       ├── intervyou
+│   │   │       │   ├── intervyou-1.png
+│   │   │       │   ├── intervyou-2.png
+│   │   │       │   ├── intervyou-3.png
+│   │   │       │   ├── intervyou-4.png
+│   │   │       │   ├── intervyou-5.png
+│   │   │       │   └── intervyou-thumbnail.jpg
+│   │   │       ├── lptk
+│   │   │       │   ├── lptk1.png
+│   │   │       │   ├── lptk2.png
+│   │   │       │   ├── lptk3.png
+│   │   │       │   └── lptk4.png
+│   │   │       ├── mind-mirror
+│   │   │       │   ├── mind-thumbnail.jpg
+│   │   │       │   ├── mind1.png
+│   │   │       │   ├── mind2.png
+│   │   │       │   ├── mind3.png
+│   │   │       │   ├── mind4.png
+│   │   │       │   └── mind5.png
+│   │   │       ├── mood-now
+│   │   │       │   ├── mood-now-thumbnail.jpg
+│   │   │       │   └── mood-now1.png
+│   │   │       ├── react-chat
+│   │   │       │   ├── chat-thumbnail.png
+│   │   │       │   ├── chat1.png
+│   │   │       │   ├── chat2.png
+│   │   │       │   ├── chat3.png
+│   │   │       │   └── chat4.png
+│   │   │       ├── saku-senyum
+│   │   │       │   ├── saku-senyum-thumbnail.png
+│   │   │       │   ├── saku-senyum1.png
+│   │   │       │   ├── saku-senyum2.png
+│   │   │       │   ├── saku-senyum3.png
+│   │   │       │   └── saku-senyum4.png
+│   │   │       ├── simadun
+│   │   │       │   ├── simadun-thumbnail.png
+│   │   │       │   ├── simadun1.png
+│   │   │       │   ├── simadun2.png
+│   │   │       │   ├── simadun3.png
+│   │   │       │   ├── simadun4.png
+│   │   │       │   └── simadun5.png
+│   │   │       ├── tools
+│   │   │       │   ├── tools-thumbnail.png
+│   │   │       │   ├── tools.png
+│   │   │       │   ├── tools1.png
+│   │   │       │   ├── tools2.png
+│   │   │       │   └── tools3.png
+│   │   │       ├── trivia
+│   │   │       │   ├── trivia-thumbnail.png
+│   │   │       │   ├── trivia1.png
+│   │   │       │   ├── trivia2.png
+│   │   │       │   └── trivia3.png
+│   │   │       └── vicc
+│   │   │           ├── vicc-thumbnail.jpg
+│   │   │           ├── vicc1.png
+│   │   │           ├── vicc2.png
+│   │   │           └── vicc3.png
+│   │   ├── projects.png
+│   │   └── setup.jpg
+│   ├── mp3
+│   │   └── default1.mp3
+│   ├── og-image-rev.png
+│   ├── og-image-square.png
+│   ├── robots.txt
+│   └── sitemap2.xml
+├── README.md
+├── structure.txt
+└── tailwind.config.js
+
+88 directories, 168 files

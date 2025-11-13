@@ -117,7 +117,7 @@ function ExperienceCard({ experience, index, isEven }) {
       {" "}
       {/* Card */}
       <div
-        className={`bg-white/20 backdrop-blur-sm border border-gray-300/30 rounded-2xl p-6 shadow-lg 
+        className={`bg-white/20 backdrop-blur-sm border border-gray-300/30 rounded-2xl p-6 shadow-lg
 				hover:shadow-xl hover:bg-white/30 transition-all duration-300 ml-12 md:ml-0`}
       >
         {/* Company & Position */}
@@ -218,7 +218,7 @@ export default function Experience() {
             >
               <button
                 onClick={() => setShowAll(!showAll)}
-                className="bg-black hover:bg-gray-800 text-white px-8 py-3 rounded-full font-medium 
+                className="bg-black hover:bg-gray-800 text-white px-8 py-3 rounded-full font-medium
 									transition-all duration-300 hover:scale-105 shadow-lg flex items-center gap-2"
               >
                 {showAll ? (
